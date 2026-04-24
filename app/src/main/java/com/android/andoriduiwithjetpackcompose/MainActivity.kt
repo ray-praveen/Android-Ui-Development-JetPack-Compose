@@ -6,6 +6,9 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.android.andoriduiwithjetpackcompose.chapter1.greetingUser.Hello
 import com.android.andoriduiwithjetpackcompose.chapter1.practice1.Modify
+import com.android.andoriduiwithjetpackcompose.chapter2.Factorial
+import com.android.andoriduiwithjetpackcompose.chapter2.SquareApp
+import com.android.andoriduiwithjetpackcompose.chapter3.ColorPickerApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +16,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
 //            Hello()
-            Modify()
+//            Factorial()
+//            SquareApp()
+            ColorPickerApp()
         }
     }
 }
