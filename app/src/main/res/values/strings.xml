@@ -5,4 +5,7 @@
     <string name="done">Done</string>
     <string name="hint">Your name</string>
     <string name="error">Please enter your name</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
 </resources>
