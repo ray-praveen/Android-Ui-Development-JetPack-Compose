@@ -1,7 +1,6 @@
 package com.android.andoriduiwithjetpackcompose.chapter3
 
 
-import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.MaterialTheme
@@ -20,7 +19,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.min
-import com.android.andoriduiwithjetpackcompose.chapter1.greetingUser.TextAndButton
+
+
 
 
 @Composable
